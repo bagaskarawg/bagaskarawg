@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+#body{
+	width: 100%;
+	margin: 0 auto;
+	background: #6C6C6C;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#home{
+	width: 1200px;
+	min-height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: url(https://sg.fiverrcdn.com/photos/119042179/original/6092429ce043155435970ac155d331108b16f4b5.jpg?1540232126) no-repeat;
+	background-position-y: center;
+	width: 1200px;
+	height: 220px;
+}
+
+#menu{
+	background: #f05340;
+	width:100%;
+	height: 66px;
+	font-family: sans-serif;
+	font-size: 22PX;
+	font-weight: bold;
+	color: #FFF;
+	padding:10px 30px 0;
+	overflow: hidden;
+	text-shadow: 1px 1px #333;
+	letter-spacing: 0.1em;
+}
+
+	#menu a{
+		color: #FFF;
+		text-decoration:none;
+	}
+
+	#menu a:hover, #menu a.active {
+		color: #F97703;
+		text-decoration:none;
+	}
+
+#slide{
+	width: 1200px;
+	height: 425px;
+	margin-top: -20px;
+	background:#fff;
+}
+
+#content{
+	min-height:500px;
+	background: #fff;
+}
+
+#content_area{
+	margin: 0 25px;
+}
+
+#column-left{ float: left; width: 33.33%; }
+#column-right{ float: right; width: 33.33%; }
+#column-center{ display: inline-block; width: 33.33%; }
+
+#latestnews-title{
+	margin: 10px auto 0;
+	background: url(../images/title_latest_news.png) no-repeat;
+	width: 351px;
+	height: 75px;
+}
+
+#latestevents-title{
+	margin: 10px auto 0;
+	background: url(../images/title_latest_event.png) no-repeat;
+	width: 349px;
+	height: 75px;
+}
+
+#profile-title{
+	margin: 10px auto 0;
+	background: url(../images/title_profile.png) no-repeat;
+	width: 349px;
+	height: 75px;
+}
+
+
+#content-img{
+	width: 349px;
+	height: 224px;
+	margin: 0px auto 10px;
+}
+
+	#content-img:hover{
+		opacity: 0.6;
+	}
+
+#title_news, #title_news a{
+	color: #F88202;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+	#title_news a:hover{
+		color: #0378FD;
+	}
+
+#date{
+	color: #999;
+	font-size: 12px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#news{
+	color: #333;
+	font-size: 13px;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+#readmore, #readmore a, #news a{
+	color:#0378FD;
+	font-size: 13px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+
+	#readmore a:hover, #news a:hover{
+		color:#F30F43;
+		font-family: 'Ubuntu', sans-serif;
+		text-decoration: none;
+	}
+
+#footer{
+	background: #f05340;
+	width: 1200px;
+	height: 434px;
+}
+
+#contact-title{
+	margin: 10px auto 0;
+	background: url(../images/title_footer_contact.png) no-repeat;
+	width: 351px;
+	height: 55px;
+	margin-bottom: 10px;
+}
+
+#photo-title{
+	margin: 10px auto 0;
+	background: url(../images/title_footer_photo.png) no-repeat;
+	width: 349px;
+	height: 55px;
+	margin-bottom: 10px;
+}
+
+#video-title{
+	margin: 10px auto 0;
+	background: url(../images/title_footer_video.png) no-repeat;
+	width: 349px;
+	height: 55px;
+	margin-bottom: 10px;
+}
+
+#footer_contact, #footer_contact a{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: justify;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	margin-top: -3px;
+}
+
+	#footer_contact br{
+		margin-bottom:0.1em;
+	}
+
+#button{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.button-green,
+.button-red,
+.button-orange,
+.button-blue {
+	color: white;
+	border-radius: 0px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	padding: 10px 20px;
+	font-size: 12px;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 20px auto 0;
+	border: 2px solid #fff;
+}
+
+.button-green:hover,
+.button-red:hover,
+.button-orange:hover,
+.button-blue:hover {
+	background: orange;
+}
+
+.button-green {
+	background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-red {
+	background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-orange {
+	background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-blue {
+	background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+#medsos{
+	min-height:50px;
+	background: #fff;
+	text-align: center;
+	padding: 30px;
+}
+
+#medsos_area{
+	width: 300px;
+	margin: 0 auto 0px;
+}
+
+#copyright, #copyright a{
+	color: #333;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+#copyright a:hover{
+	color: orange;
+}
+
+h1 {
+	position: relative;
+	font-size: 35px;
+	font-family: 'Myriad Pro', 'Myriad', helvetica, arial, sans-serif;
+	text-shadow: 2px 3px 3px #292929;
+	letter-spacing: 1px;
+	-webkit-text-stroke: 1px white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+h1 a {
+	text-decoration: none;
+	color: #ffffff;
+	position: absolute;
+
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+	text-shadow: 0 2px 0 #e9e9e9;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+h1 a:hover {
+	color: #185a50;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,.3)), to(rgba(0,0,0,1)));
+
+}
+
+h1:after {
+	color: #dbdbdb;
+	content : attr(data-title);
+}
+
+.clear {
+  clear: both;
+}
+
+#content {
+	margin-top: -25px;
+}
