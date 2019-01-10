@@ -82,7 +82,7 @@
                         <img src="<?= $latestEvent['image'] ?>" width="351" height="224" alt=""/>
                     </div>
                     <div id="title_news">
-                        <a href="news.php?id=<?= $latestEvent['id'] ?>"><?= $latestEvent['title'] ?></a>
+                        <a href="event.php?id=<?= $latestEvent['id'] ?>"><?= $latestEvent['title'] ?></a>
                     </div>
                     <div id="date">
                         <?= date('d F Y', strtotime($latestEvent['date'])) ?>
@@ -91,7 +91,7 @@
                         <?= substr($latestEvent['content'], 0, 250) ?>
                     </div>
                     <div id="readmore">
-                        <a href="news.php?id=<?= $latestEvent['id'] ?>">read more...</a>
+                        <a href="event.php?id=<?= $latestEvent['id'] ?>">read more...</a>
                     </div>
                 <?php else: ?>
                     <p>there are currently no events available</p>
